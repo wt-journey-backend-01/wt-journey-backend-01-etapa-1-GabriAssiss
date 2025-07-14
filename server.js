@@ -32,6 +32,7 @@ app.get('/sugestao', (req, res) => {
     <h1>Obrigado pela Sugestão</h1>
     <p>Nome do lanche: ${name}</p>
     <p>Ingredientes: ${ingredients}</p>
+    <a href="/">Início</a>
     </body>`
    );
 });
